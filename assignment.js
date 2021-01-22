@@ -85,6 +85,8 @@ function megaFriend(frnds) {
         var element = frnds[i];
         if (element.length > max.length) {
             max = element;
+        }else if(element !==max){
+            max="sorry!please enter string data type";
         }
     }
     return max;
