@@ -79,7 +79,7 @@ function hotelCost(days) {
 
 //task-4:
 
-function megaFriends(frnds) {
+function megaFriend(frnds) {
     var max = frnds[0];
     for (var i = 0; i < frnds.length; i++) {
         var element = frnds[i];
