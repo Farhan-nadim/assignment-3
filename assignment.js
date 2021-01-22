@@ -1,7 +1,7 @@
 
 
 //task-1:
-function kilometerToMeter(km) {
+function kilometerToMeter (km){
     var meterReached = km * 1000;
 
     return meterReached
@@ -30,7 +30,6 @@ function budgetCalculator(numberOfGhori, numberOfPhone, numberOfLaptop) {
 
     return totalBudget;
 }
-
 
 
 
@@ -85,8 +84,6 @@ function megaFriend(frnds) {
         var element = frnds[i];
         if (element.length > max.length) {
             max = element;
-        }else if(element !==max){
-            max="sorry!please enter string data type";
         }
     }
     return max;
